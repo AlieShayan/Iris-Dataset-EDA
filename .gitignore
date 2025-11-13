@@ -1,2 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+.idea/
+.vscode/
+
+# Virtual environment
+venv/
+.env/
+env/
+ENV/
+
+# Data files (Optional, but good practice if you add large data)
+*.json
+*.sqlite
+*.db
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
 data/DM-HM1-Alireza_Shayan-40331561-Report.pdf
 *.pdf
