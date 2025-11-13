@@ -28,13 +28,26 @@ This project is structured into three main analysis scripts found in the `src/` 
 
 * **Comprehensive Visualization (`Visualization.py`):**
     * **Label Distribution:** A bar plot to check for class balance.
-![Label Distribution of Iris Species](img/"Distribution of Iris Species.png")
-    * **Histograms:** 2D histograms for `petal_length` and `sepal_width`, and a 3D histogram combining `petal_length` and `sepal_length`.
-    * **Box Plots:** Generates per-species 1D box plots and a consolidated 2D box plot.
-    * **Quantile Plots:** Created to analyze the distribution and quantiles of `petal_length` and `sepal_width`.
-    * **Scatter Plots:** Includes a 6-plot matrix for all feature pairs and an interactive 3D scatter plot (`sepal_length`, `sepal_width`, `petal_length`).
-    * **Probability Density:** Plots the Kernel Density Estimation (KDE) for `petal_length`, grouped by species, to visualize class overlap.
+      ![Label Distribution of Iris Species](img/distribution-iris-species.png)
 
+    * **Histograms:** 2D histograms for `petal_length` and `sepal_width`, and a 3D histogram combining `petal_length` and `sepal_length`.
+      ![2D Histograms](img/histograms.png)
+      ![3D Histogram](img/3d-histogram.png)
+
+    * **Box Plots:** Generates per-species 1D box plots and a consolidated 2D box plot.
+      ![Species Box Plots](img/box-plots.png)
+      ![2D Box Plot](img/2d-box-plot.png)
+
+    * **Quantile Plots:** Created to analyze the distribution and quantiles of `petal_length` and `sepal_width`.
+      ![Quantile Plot for Sepal Width](img/q-plot-sepal-width.png)
+      ![Quantile Plot for Petal Length](img/q-plot-petal-length.png)
+
+    * **Scatter Plots:** Includes a 6-plot matrix for all feature pairs and an interactive 3D scatter plot (`sepal_length`, `sepal_width`, `petal_length`).
+      ![Scatter Plot Matrix](img/scatter-plot-matrix.png)
+      ![3D Scatter Plot](img/3d-scatter-plot.png)
+
+    * **Probability Density:** Plots the Kernel Density Estimation (KDE) for `petal_length`, grouped by species, to visualize class overlap.
+      ![Probability Density Plot](img/probability-density-plot.png)
 ---
 
 ## 🛠️ Technologies Used
