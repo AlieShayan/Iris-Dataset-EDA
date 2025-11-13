@@ -74,7 +74,7 @@ Iris-Dataset-EDA/
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/Iris-Dataset-EDA.git](https://github.com/YourUsername/Iris-Dataset-EDA.git)
+    git clone [https://github.com/AlieShayan/Iris-Dataset-EDA.git](https://github.com/AlieShayan/Iris-Dataset-EDA.git)
     cd Iris-Dataset-EDA
     ```
 
