@@ -28,7 +28,7 @@ This project is structured into three main analysis scripts found in the `src/` 
 
 * **Comprehensive Visualization (`Visualization.py`):**
     * **Label Distribution:** A bar plot to check for class balance.
-![Label Distribution of Iris Species](img/Distribution of Iris Species.png)
+![Label Distribution of Iris Species](img/"Distribution of Iris Species.png")
     * **Histograms:** 2D histograms for `petal_length` and `sepal_width`, and a 3D histogram combining `petal_length` and `sepal_length`.
     * **Box Plots:** Generates per-species 1D box plots and a consolidated 2D box plot.
     * **Quantile Plots:** Created to analyze the distribution and quantiles of `petal_length` and `sepal_width`.
